@@ -1,6 +1,6 @@
 package com.jan1ooo.microservice.controller;
 
-import com.jan1ooo.microservice.model.CourseModel;
+import com.jan1ooo.core.model.Course;
 import com.jan1ooo.microservice.service.CourseService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -21,7 +21,7 @@ public class CourseController {
     private final CourseService courseService;
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Iterable<CourseModel>> list(Pageable pageable){
+    public ResponseEntity<Iterable<Course>> list(Pageable pageable){
         return new ResponseEntity<>(courseService.list(pageable), HttpStatus.OK);
     }
 }

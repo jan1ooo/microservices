@@ -1,4 +1,4 @@
-package com.jan1ooo.microservice.model;
+package com.jan1ooo.core.model;
 
 import java.io.Serializable;
 

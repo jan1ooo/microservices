@@ -10,12 +10,15 @@
     </parent>
     <groupId>com.jan1ooo</groupId>
     <artifactId>microservice</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>microservice_academy</name>
-    <description>microservice_academy</description>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <properties>
         <java.version>17</java.version>
     </properties>
+    <modules>
+        <module>course</module>
+        <module>core</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -25,14 +28,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
             <version>3.1.1</version>
         </dependency>
-
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -60,22 +60,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
 </project>

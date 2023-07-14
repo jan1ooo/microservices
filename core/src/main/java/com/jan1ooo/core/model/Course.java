@@ -1,4 +1,4 @@
-package com.jan1ooo.microservice.model;
+package com.jan1ooo.core.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
@@ -15,7 +15,7 @@ import java.util.Objects;
 @NoArgsConstructor
 @Builder
 @Table(name = "course")
-public class CourseModel implements AbstractEntity{
+public class Course implements AbstractEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -29,7 +29,7 @@ public class CourseModel implements AbstractEntity{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        CourseModel that = (CourseModel) o;
+        Course that = (Course) o;
         return Objects.equals(id, that.id);
     }
 
