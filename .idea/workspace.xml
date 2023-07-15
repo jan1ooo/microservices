@@ -5,23 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b40ac63-3a1b-4a0c-8f4f-efe795bbce91" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.fastRequest/config/fastRequestCurrentProjectConfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/src/main/java/com/jan1ooo/discovery/DiscoveryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/src/test/java/com/jan1ooo/discovery/DiscoveryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fastRequest/fastRequestCurrentProjectLocalConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fastRequest/fastRequestCurrentProjectLocalConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/jan1ooo/core/model/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/jan1ooo/core/model/AbstractEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/jan1ooo/core/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/jan1ooo/core/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/jan1ooo/core/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/jan1ooo/core/repository/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/main/java/com/jan1ooo/microservice/MicroserviceAcademyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/com/jan1ooo/microservice/MicroserviceAcademyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/main/java/com/jan1ooo/microservice/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/com/jan1ooo/microservice/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/main/java/com/jan1ooo/microservice/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/com/jan1ooo/microservice/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/course/stack.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/microservice/MicroserviceAcademyApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/microservice/controller/CourseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/microservice/model/AbstractEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/microservice/model/CourseModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/microservice/repository/CourseRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/microservice/service/CourseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jan1ooo/microservice/MicroserviceAcademyApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +79,9 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+  </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
@@ -76,18 +94,28 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2SXCek5wPKVTSoNpCTAgEhG4n2W" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -98,7 +126,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Development/microservice_academy/core/src/main/java/com/jan1ooo/core/model",
+    "last_opened_file_path": "C:/Development/microservice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,8 +136,8 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "c9eb624cb4ef5e3fea38208622f21fd3",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "spring.configuration.checksum": "3ff3809e04d8978a012c0f37213768b5",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -131,7 +159,14 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.MicroserviceAcademyApplication">
+    <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jan1ooo.discovery.DiscoveryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MicroserviceAcademyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -157,12 +192,17 @@
       <workItem from="1689294321188" duration="215000" />
       <workItem from="1689294608491" duration="261000" />
       <workItem from="1689295166368" duration="116000" />
-      <workItem from="1689295318050" duration="2304000" />
+      <workItem from="1689295318050" duration="2555000" />
+      <workItem from="1689297956599" duration="627000" />
+      <workItem from="1689388934028" duration="532000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

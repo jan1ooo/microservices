@@ -1,9 +1,9 @@
 package com.jan1ooo.core.model;
 
-import jakarta.persistence.*;
-import jakarta.validation.constraints.NotNull;
 import lombok.*;
 
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.util.Objects;
 
 
@@ -14,7 +14,6 @@ import java.util.Objects;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Table(name = "course")
 public class Course implements AbstractEntity{
 
     @Id
