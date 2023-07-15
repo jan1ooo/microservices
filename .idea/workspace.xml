@@ -5,38 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b40ac63-3a1b-4a0c-8f4f-efe795bbce91" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/discovery/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/src/main/java/com/jan1ooo/discovery/DiscoveryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery/src/test/java/com/jan1ooo/discovery/DiscoveryApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fastRequest/fastRequestCurrentProjectLocalConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fastRequest/fastRequestCurrentProjectLocalConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/jan1ooo/core/model/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/jan1ooo/core/model/AbstractEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/jan1ooo/core/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/jan1ooo/core/model/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/jan1ooo/core/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/jan1ooo/core/repository/CourseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/src/main/java/com/jan1ooo/microservice/MicroserviceAcademyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/com/jan1ooo/microservice/MicroserviceAcademyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/src/main/java/com/jan1ooo/microservice/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/com/jan1ooo/microservice/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/src/main/java/com/jan1ooo/microservice/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/com/jan1ooo/microservice/service/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/course/stack.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +164,7 @@
       <workItem from="1689295166368" duration="116000" />
       <workItem from="1689295318050" duration="2555000" />
       <workItem from="1689297956599" duration="627000" />
-      <workItem from="1689388934028" duration="532000" />
+      <workItem from="1689388934028" duration="1242000" />
     </task>
     <servers />
   </component>
