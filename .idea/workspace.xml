@@ -8,6 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/Agenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +31,7 @@
     <option name="projectConfigVersion" value="5" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/Agenda.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/Paciente.java" root0="SKIP_INSPECTION" />
   </component>
@@ -64,7 +68,7 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Development/microservice",
+    "last_opened_file_path": "C:/Development/microservice/src/main/resources/db/migration",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,7 +115,8 @@
       <option name="presentableId" value="Default" />
       <updated>1689393429075</updated>
       <workItem from="1689393430282" duration="2022000" />
-      <workItem from="1689453172809" duration="3776000" />
+      <workItem from="1689453172809" duration="4557000" />
+      <workItem from="1689542237196" duration="1402000" />
     </task>
     <task id="LOCAL-00001" summary="Mudando dnv :(">
       <option name="closed" value="true" />

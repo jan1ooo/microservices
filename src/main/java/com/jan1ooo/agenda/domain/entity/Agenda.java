@@ -23,5 +23,6 @@ public class Agenda {
     private LocalDateTime dataCriacao;
 
     @ManyToOne
-    private Paciente paciente_id;
+    @JoinColumn(name = "paciente_id")
+    private Paciente paciente;
 }

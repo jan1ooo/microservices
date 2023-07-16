@@ -14,5 +14,5 @@ U
 mvnw.cmd,1\f\1f1763f358c257ea3515417352b82b0165647ad1
 l
 <src/test/java/com/jan1ooo/agenda/AgendaApplicationTests.java,c\1\c19abc7d2e0f990dc7bf13b3b35006837d2c7e1e
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+B
+docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
