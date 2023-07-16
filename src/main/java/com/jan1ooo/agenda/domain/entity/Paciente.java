@@ -13,6 +13,6 @@ public class Paciente {
     private Long id_paciente;
     private String nome;
     private String sobrenome;
-    private String email;
+    @Column(unique = true)
     private String cpf;
 }
