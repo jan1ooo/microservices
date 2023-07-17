@@ -15,4 +15,5 @@ public class Paciente {
     private String sobrenome;
     @Column(unique = true)
     private String cpf;
+    private String email;
 }
