@@ -16,3 +16,5 @@ U
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 B
 docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec

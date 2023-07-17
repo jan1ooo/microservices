@@ -17,19 +17,19 @@ public class PacienteService {
     @Autowired
     private final PacienteRepository repository;
 
-    private List<Paciente> findAll(){
+    public List<Paciente> findAll(){
         return repository.findAll();
     }
 
-    private Paciente save(Paciente paciente){
+    public Paciente save(Paciente paciente){
         return repository.save(paciente);
     }
 
-    private Paciente findById(Long id){
+    public Paciente findById(Long id){
         return repository.findById(id).get();
     }
 
-    private void delete(Long id){
+    public void delete(Long id){
         repository.deleteById(id);
     }
 }

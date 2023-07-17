@@ -16,3 +16,5 @@ l
 <src/test/java/com/jan1ooo/agenda/AgendaApplicationTests.java,c\1\c19abc7d2e0f990dc7bf13b3b35006837d2c7e1e
 B
 docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
