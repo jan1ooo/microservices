@@ -25,4 +25,20 @@ public class PacienteController {
     public ResponseEntity<List<Paciente>> findAll(){
         return ResponseEntity.ok().body(service.findAll());
     }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Paciente> findById(@PathVariable Long id){
+        return ResponseEntity.ok().body(service.findById(id));
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Paciente> update(@PathVariable Long id, @RequestBody Paciente paciente){
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).body(service.update(id, paciente));
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> delete(@PathVariable Long id){
+        service.delete(id);
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+    }
 }

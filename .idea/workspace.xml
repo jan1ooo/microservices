@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e24acc27-8e99-420f-873e-18d427648bde" name="Changes" comment="Mudando dnv :(">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/Paciente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/repository/PacienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/repository/PacienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/api/controller/PacienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/api/controller/PacienteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/service/PacienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/service/PacienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/exception/BusinessException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +124,7 @@
       <workItem from="1689393430282" duration="2022000" />
       <workItem from="1689453172809" duration="4557000" />
       <workItem from="1689542237196" duration="3090000" />
-      <workItem from="1689628609766" duration="2902000" />
+      <workItem from="1689628609766" duration="4969000" />
     </task>
     <task id="LOCAL-00001" summary="Mudando dnv :(">
       <option name="closed" value="true" />
