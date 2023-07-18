@@ -1,9 +1,12 @@
 package com.jan1ooo.agenda.domain.service;
 
+import com.jan1ooo.agenda.domain.dto.PacienteDto;
+import com.jan1ooo.agenda.domain.dto.mapper.PacienteMapper;
 import com.jan1ooo.agenda.domain.entity.Paciente;
 import com.jan1ooo.agenda.domain.repository.PacienteRepository;
 import com.jan1ooo.agenda.exception.BusinessException;
 import com.jan1ooo.agenda.exception.RecordNotFoundException;
+import jakarta.validation.ConstraintViolationException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,6 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 @Transactional
@@ -20,37 +24,49 @@ public class PacienteService {
     @Autowired
     private final PacienteRepository repository;
 
-    public List<Paciente> findAll(){
-        return repository.findAll();
+    @Autowired
+    private final PacienteMapper mapper;
+
+    public List<PacienteDto> findAll(){
+        return repository.findAll().stream().map(mapper::toDto).collect(Collectors.toList());
     }
 
-    public Paciente save(Paciente paciente){
+    public PacienteDto save(PacienteDto paciente){
         boolean existeCpf = false;
 
-        Optional<Paciente> optPaciente = repository.findByCpf(paciente.getCpf());
+        Optional<PacienteDto> optPaciente = Optional.ofNullable(mapper.toDto(repository.findByCpf(paciente.getCpf())));
 
-        if (optPaciente.isPresent()) {
-            if (!optPaciente.get().getId_paciente().equals(paciente.getId_paciente())) {
-                existeCpf = true;
+        try{
+            if (optPaciente.isPresent()) {
+                if (!optPaciente.get().getId_paciente().equals(paciente.getId_paciente())) {
+                    existeCpf = true;
+                }
             }
+            if (existeCpf) {
+                throw new BusinessException("Cpf já cadastrado!");
+            }
+
+            if(paciente.getNome() == null || paciente.getSobrenome() == null) {
+                throw new BusinessException("Faltando informação");
+            }
+            return mapper.toDto(repository.save(mapper.toEntity(paciente)));
         }
-        if (existeCpf) {
-            throw new BusinessException("Cpf já cadastrado!");
+        catch (ConstraintViolationException e){
+            throw new BusinessException("CPF ou Email Inválido");
         }
-        return repository.save(paciente);
     }
 
-    public Paciente findById(Long id){
-        return repository.findById(id).orElseThrow(() -> new RecordNotFoundException(id));
+    public PacienteDto findById(Long id){
+        return mapper.toDto(repository.findById(id).orElseThrow(() -> new RecordNotFoundException(id)));
     }
 
-    public Paciente update(Long id, Paciente paciente){
+    public PacienteDto update(Long id, PacienteDto paciente){
         return repository.findById(id)
                 .map(recordFound -> {
                     recordFound.setNome(paciente.getNome());
                     recordFound.setSobrenome(paciente.getSobrenome());
                     recordFound.setEmail(paciente.getEmail());
-                    return repository.save(recordFound);
+                    return mapper.toDto(repository.save(recordFound));
                 })
                 .orElseThrow(() -> new RecordNotFoundException(id));
     }

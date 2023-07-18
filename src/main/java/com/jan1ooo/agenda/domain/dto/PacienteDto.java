@@ -1,25 +1,27 @@
-package com.jan1ooo.agenda.domain.entity;
+package com.jan1ooo.agenda.domain.dto;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Column;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.validator.constraints.br.CPF;
 
 @Data
-@Table(name = "paciente")
-@Entity
-public class Paciente {
+@AllArgsConstructor
+@NoArgsConstructor
+public class PacienteDto {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id_paciente;
+    @NotBlank
     private String nome;
+    @NotBlank
     private String sobrenome;
     @Column(unique = true)
     @CPF
     private String cpf;
-    @Email
     @NotBlank
+    @Email
     private String email;
 }
