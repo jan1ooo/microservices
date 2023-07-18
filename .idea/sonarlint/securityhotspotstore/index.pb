@@ -14,9 +14,5 @@ U
 %.mvn/wrapper/maven-wrapper.properties,3\2\32e074f71d16c1e88ac02aa83592ca6ad1fd98a8
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
-B
-docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
-j
-:src/main/java/com/jan1ooo/agenda/domain/entity/Agenda.java,2\b\2bfd37aeb91904979d68212351ae7854a0843b3b
 €
 Psrc/main/java/com/jan1ooo/agenda/api/controller/ApplicationControllerAdvice.java,8\5\85cb6b8a072c04ac7e8d52cbdc853a0629c3d463

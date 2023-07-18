@@ -7,7 +7,9 @@ import com.jan1ooo.agenda.domain.repository.PacienteRepository;
 import com.jan1ooo.agenda.exception.BusinessException;
 import com.jan1ooo.agenda.exception.RecordNotFoundException;
 import jakarta.validation.ConstraintViolationException;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.jetbrains.annotations.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -31,7 +33,7 @@ public class PacienteService {
         return repository.findAll().stream().map(mapper::toDto).collect(Collectors.toList());
     }
 
-    public PacienteDto save(PacienteDto paciente){
+    public PacienteDto save(@Valid @NotNull PacienteDto paciente){
         boolean existeCpf = false;
 
         Optional<PacienteDto> optPaciente = Optional.ofNullable(mapper.toDto(repository.findByCpf(paciente.getCpf())));

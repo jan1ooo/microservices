@@ -14,12 +14,13 @@ import org.hibernate.validator.constraints.br.CPF;
 public class PacienteDto {
 
     private Long id_paciente;
-    @NotBlank
+    @NotBlank(message = "Nome do Paciente é Obrigatório")
     private String nome;
-    @NotBlank
+    @NotBlank(message = "Sobrenome do Paciente é Obrigatório")
     private String sobrenome;
     @Column(unique = true)
     @CPF
+    @NotBlank(message = "CPF do Paciente é Obrigatório")
     private String cpf;
     @NotBlank
     @Email
