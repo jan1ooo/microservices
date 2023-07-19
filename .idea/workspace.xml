@@ -8,9 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/dto/PacienteDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/dto/PacienteDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/service/PacienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/service/PacienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/dto/AgendaDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/dto/AgendaDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/service/AgendaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/service/AgendaService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,9 @@
       <workItem from="1689453172809" duration="4557000" />
       <workItem from="1689542237196" duration="3090000" />
       <workItem from="1689628609766" duration="5190000" />
-      <workItem from="1689713343826" duration="6871000" />
+      <workItem from="1689713343826" duration="7536000" />
+      <workItem from="1689800252422" duration="30000" />
+      <workItem from="1689800309684" duration="1698000" />
     </task>
     <task id="LOCAL-00001" summary="Mudando dnv :(">
       <option name="closed" value="true" />
@@ -147,5 +148,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mudando dnv :(" />
     <option name="LAST_COMMIT_MESSAGE" value="Mudando dnv :(" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
