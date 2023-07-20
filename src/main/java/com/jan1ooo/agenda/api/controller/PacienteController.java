@@ -3,6 +3,7 @@ package com.jan1ooo.agenda.api.controller;
 import com.jan1ooo.agenda.domain.dto.PacienteDto;
 import com.jan1ooo.agenda.domain.entity.Paciente;
 import com.jan1ooo.agenda.domain.service.PacienteService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@Tag(name = "Paciente", description = "API Paciente")
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/paciente")

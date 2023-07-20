@@ -14,7 +14,7 @@ public class PacienteMapper {
 
         Paciente paciente = new Paciente();
         if(pacienteDto.getId_paciente() != null){
-            paciente.setId_paciente(paciente.getId_paciente());
+            paciente.setId_paciente(pacienteDto.getId_paciente());
         }
         paciente.setNome(pacienteDto.getNome());
         paciente.setSobrenome(pacienteDto.getSobrenome());

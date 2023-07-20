@@ -1,7 +1,9 @@
 package com.jan1ooo.agenda.api.controller;
 
 import com.jan1ooo.agenda.domain.dto.AgendaDto;
+import com.jan1ooo.agenda.domain.dto.request.AgendaRequest;
 import com.jan1ooo.agenda.domain.service.AgendaService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -9,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@Tag(name = "Agenda", description = "API Agenda")
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/agenda")
@@ -26,7 +29,7 @@ public class AgendaController {
     }
 
     @PostMapping
-    public ResponseEntity<AgendaDto> create(@RequestBody AgendaDto agenda){
+    public ResponseEntity<AgendaDto> create(@RequestBody AgendaRequest agenda){
         return ResponseEntity.status(HttpStatus.CREATED).body(service.save(agenda));
     }
 }

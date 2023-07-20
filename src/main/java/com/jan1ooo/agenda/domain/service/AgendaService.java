@@ -3,6 +3,7 @@ package com.jan1ooo.agenda.domain.service;
 import com.jan1ooo.agenda.domain.dto.AgendaDto;
 import com.jan1ooo.agenda.domain.dto.PacienteDto;
 import com.jan1ooo.agenda.domain.dto.mapper.AgendaMapper;
+import com.jan1ooo.agenda.domain.dto.request.AgendaRequest;
 import com.jan1ooo.agenda.domain.repository.AgendaRepository;
 import com.jan1ooo.agenda.exception.BusinessException;
 import com.jan1ooo.agenda.exception.RecordNotFoundException;
@@ -34,20 +35,8 @@ public class AgendaService {
         return mapper.toDto(repository.findById(id).orElseThrow(() -> new RecordNotFoundException(id)));
     }
 
-    public AgendaDto save(@Valid AgendaDto agendaDto){
-        Optional<PacienteDto> optPaciente = Optional.ofNullable(service.findById(agendaDto.getPaciente().getId_paciente()));
-        if(optPaciente.isEmpty()){
-            throw new BusinessException("Paciente não encontrado");
-        }
-
-        Optional<AgendaDto> optHorario = Optional.ofNullable(repository.findByHorario(agendaDto.getHorario()));
-        if(optHorario.isPresent()){
-            throw new BusinessException("Já existe agendamento para este horario");
-        }
-
-        agendaDto.setPaciente(optPaciente.get());
-        agendaDto.setDataCriacao(LocalDateTime.now());
-        return mapper.toDto(repository.save(mapper.toEntity(agendaDto)));
+    public AgendaDto save(@Valid AgendaRequest agendaRequest){
+        return mapper.requestToDto(agendaRequest);
     }
 
 }
