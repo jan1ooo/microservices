@@ -17,8 +17,6 @@ t
 Dsrc/main/java/com/jan1ooo/agenda/domain/service/PacienteService.java,6\c\6c456ea94abafb0bc15c90470a0059b0134d23ac
 z
 Jsrc/main/java/com/jan1ooo/agenda/domain/repository/PacienteRepository.java,0\4\043b106787bd8f7a4d61657e9659965458ebe8c6
-j
-:src/main/java/com/jan1ooo/agenda/domain/entity/Agenda.java,2\b\2bfd37aeb91904979d68212351ae7854a0843b3b
 B
 docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
 4

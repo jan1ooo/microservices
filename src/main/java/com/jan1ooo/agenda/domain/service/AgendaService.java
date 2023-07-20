@@ -10,8 +10,12 @@ import com.jan1ooo.agenda.exception.RecordNotFoundException;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Positive;
 import lombok.RequiredArgsConstructor;
+import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.dao.InvalidDataAccessApiUsageException;
+import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -36,7 +40,21 @@ public class AgendaService {
     }
 
     public AgendaDto save(@Valid AgendaRequest agendaRequest){
-        return mapper.requestToDto(agendaRequest);
+        try {
+            Long id = agendaRequest.getPaciente();
+
+            if (service.findById(id) == null) {
+                throw new BusinessException("Não existe este paciente");
+            }
+            agendaRequest.setDataCriacao(LocalDateTime.now());
+            return mapper.toDto(repository.save(mapper.toEntity(mapper.requestToDto(agendaRequest))));
+        }
+        catch (DataIntegrityViolationException e){
+            throw new BusinessException("Já existe agendamento neste horário");
+        }
+        catch (InvalidDataAccessApiUsageException e){
+            throw new BusinessException("ID do paciente é Obrigatório");
+        }
     }
 
 }
