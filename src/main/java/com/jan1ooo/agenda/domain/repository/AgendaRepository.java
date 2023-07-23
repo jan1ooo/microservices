@@ -1,7 +1,7 @@
 package com.jan1ooo.agenda.domain.repository;
 
-import com.jan1ooo.agenda.domain.dto.AgendaDto;
-import com.jan1ooo.agenda.domain.entity.Agenda;
+import com.jan1ooo.agenda.domain.entity.agenda.AgendaDto;
+import com.jan1ooo.agenda.domain.entity.agenda.Agenda;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

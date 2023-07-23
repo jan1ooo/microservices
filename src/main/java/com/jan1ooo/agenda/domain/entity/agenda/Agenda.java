@@ -1,9 +1,9 @@
-package com.jan1ooo.agenda.domain.entity;
+package com.jan1ooo.agenda.domain.entity.agenda;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.jan1ooo.agenda.domain.entity.paciente.Paciente;
 import jakarta.persistence.*;
 import lombok.Data;
-import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDateTime;
 

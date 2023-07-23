@@ -1,18 +1,20 @@
-package com.jan1ooo.agenda.domain.dto.request;
+package com.jan1ooo.agenda.domain.entity.agenda;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.jan1ooo.agenda.domain.dto.PacienteDto;
+import com.jan1ooo.agenda.domain.entity.paciente.PacienteDto;
 import jakarta.persistence.Column;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDateTime;
 
 @Data
-public class AgendaRequest {
+@AllArgsConstructor
+@NoArgsConstructor
+public class AgendaDto {
 
     private Long id_agenda;
 
@@ -25,7 +27,8 @@ public class AgendaRequest {
     private LocalDateTime horario;
 
     @JsonFormat(pattern = "dd-MM-yyyy HH:mm")
+    @DateTimeFormat(iso = DateTimeFormat.ISO.TIME)
     private LocalDateTime dataCriacao;
 
-    private Long paciente;
+    private PacienteDto paciente;
 }

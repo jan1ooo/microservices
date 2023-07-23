@@ -1,6 +1,6 @@
 package com.jan1ooo.agenda.domain.repository;
 
-import com.jan1ooo.agenda.domain.entity.Paciente;
+import com.jan1ooo.agenda.domain.entity.paciente.Paciente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

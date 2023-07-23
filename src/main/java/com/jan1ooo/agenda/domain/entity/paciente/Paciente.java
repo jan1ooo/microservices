@@ -1,4 +1,4 @@
-package com.jan1ooo.agenda.domain.entity;
+package com.jan1ooo.agenda.domain.entity.paciente;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;

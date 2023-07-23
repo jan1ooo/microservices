@@ -1,7 +1,6 @@
 package com.jan1ooo.agenda.api.controller;
 
-import com.jan1ooo.agenda.domain.dto.PacienteDto;
-import com.jan1ooo.agenda.domain.entity.Paciente;
+import com.jan1ooo.agenda.domain.entity.paciente.PacienteDto;
 import com.jan1ooo.agenda.domain.service.PacienteService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;

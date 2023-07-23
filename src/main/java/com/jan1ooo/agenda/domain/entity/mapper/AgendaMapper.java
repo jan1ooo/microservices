@@ -1,15 +1,12 @@
-package com.jan1ooo.agenda.domain.dto.mapper;
+package com.jan1ooo.agenda.domain.entity.mapper;
 
-import com.jan1ooo.agenda.domain.dto.AgendaDto;
-import com.jan1ooo.agenda.domain.dto.PacienteDto;
-import com.jan1ooo.agenda.domain.dto.request.AgendaRequest;
-import com.jan1ooo.agenda.domain.entity.Agenda;
-import com.jan1ooo.agenda.domain.entity.Paciente;
+import com.jan1ooo.agenda.domain.entity.agenda.AgendaDto;
+import com.jan1ooo.agenda.domain.entity.paciente.PacienteDto;
+import com.jan1ooo.agenda.domain.entity.request.AgendaRequest;
+import com.jan1ooo.agenda.domain.entity.agenda.Agenda;
 import com.jan1ooo.agenda.domain.repository.PacienteRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-
-import java.util.Optional;
 
 @Component
 @RequiredArgsConstructor

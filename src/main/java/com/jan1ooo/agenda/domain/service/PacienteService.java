@@ -1,8 +1,7 @@
 package com.jan1ooo.agenda.domain.service;
 
-import com.jan1ooo.agenda.domain.dto.PacienteDto;
-import com.jan1ooo.agenda.domain.dto.mapper.PacienteMapper;
-import com.jan1ooo.agenda.domain.entity.Paciente;
+import com.jan1ooo.agenda.domain.entity.paciente.PacienteDto;
+import com.jan1ooo.agenda.domain.entity.mapper.PacienteMapper;
 import com.jan1ooo.agenda.domain.repository.PacienteRepository;
 import com.jan1ooo.agenda.exception.BusinessException;
 import com.jan1ooo.agenda.exception.RecordNotFoundException;

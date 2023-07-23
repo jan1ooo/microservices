@@ -1,7 +1,7 @@
 package com.jan1ooo.agenda.api.controller;
 
-import com.jan1ooo.agenda.domain.dto.AgendaDto;
-import com.jan1ooo.agenda.domain.dto.request.AgendaRequest;
+import com.jan1ooo.agenda.domain.entity.agenda.AgendaDto;
+import com.jan1ooo.agenda.domain.entity.request.AgendaRequest;
 import com.jan1ooo.agenda.domain.service.AgendaService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;

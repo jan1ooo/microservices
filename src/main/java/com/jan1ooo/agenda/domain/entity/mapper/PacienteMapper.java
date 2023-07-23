@@ -1,7 +1,7 @@
-package com.jan1ooo.agenda.domain.dto.mapper;
+package com.jan1ooo.agenda.domain.entity.mapper;
 
-import com.jan1ooo.agenda.domain.dto.PacienteDto;
-import com.jan1ooo.agenda.domain.entity.Paciente;
+import com.jan1ooo.agenda.domain.entity.paciente.PacienteDto;
+import com.jan1ooo.agenda.domain.entity.paciente.Paciente;
 import org.springframework.stereotype.Component;
 
 @Component

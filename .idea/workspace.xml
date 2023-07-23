@@ -5,13 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e24acc27-8e99-420f-873e-18d427648bde" name="Changes" comment="Mudando dnv :(">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/dto/mapper/UsuarioMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4__insert_user_admin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/config/SecurityConfigurations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V2_create_table_agenda.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__create_table_agenda.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/AgendaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/AgendaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/api/controller/AgendaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/api/controller/AgendaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/api/controller/ApplicationControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/api/controller/ApplicationControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/api/controller/PacienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/api/controller/PacienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/dto/AgendaDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/agenda/AgendaDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/dto/PacienteDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/paciente/PacienteDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/dto/UsuarioDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/dto/mapper/AgendaMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/mapper/AgendaMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/dto/mapper/PacienteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/mapper/PacienteMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/dto/mapper/UsuarioMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/dto/request/AgendaRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/request/AgendaRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/agenda/Agenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/paciente/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/repository/AgendaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/repository/AgendaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/repository/PacienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/repository/PacienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/repository/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/service/AgendaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/service/AgendaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/service/PacienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/service/PacienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/service/UsuarioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/exception/RecordNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/exception/RecordNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__create_table_paciente.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__create_table_paciente.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V2__create_table_agenda.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__create_table_agenda.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V4__insert_user_admin.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/v3__create_table_usuario.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V3__create_table_usuario.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jan1ooo/agenda/AgendaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jan1ooo/agenda/AgendaApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +54,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -93,6 +127,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jan1ooo.agenda.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Development\microservice\src\main\resources\db\migration" />
     </key>
@@ -140,6 +177,7 @@
       <workItem from="1689884222105" duration="6969000" />
       <workItem from="1689980720119" duration="8447000" />
       <workItem from="1690071011548" duration="2395000" />
+      <workItem from="1690133006595" duration="5317000" />
     </task>
     <task id="LOCAL-00001" summary="Mudando dnv :(">
       <option name="closed" value="true" />
