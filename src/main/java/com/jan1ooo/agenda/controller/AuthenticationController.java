@@ -5,7 +5,7 @@ import com.jan1ooo.agenda.domain.entity.user.AuthenticationDTO;
 import com.jan1ooo.agenda.domain.entity.user.LoginResponseDTO;
 import com.jan1ooo.agenda.domain.entity.user.RegisterDTO;
 import com.jan1ooo.agenda.domain.entity.user.User;
-import com.jan1ooo.agenda.domain.repository.UsuarioRepository;
+import com.jan1ooo.agenda.domain.repository.UserRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -23,7 +23,7 @@ public class AuthenticationController {
     @Autowired
     private AuthenticationManager authenticationManager;
     @Autowired
-    private UsuarioRepository repository;
+    private UserRepository repository;
     @Autowired
     private TokenService tokenService;
 
