@@ -1,4 +1,4 @@
-package com.jan1ooo.agenda.api.controller;
+package com.jan1ooo.agenda.controller;
 
 import com.jan1ooo.agenda.domain.entity.paciente.PacienteDto;
 import com.jan1ooo.agenda.domain.service.PacienteService;

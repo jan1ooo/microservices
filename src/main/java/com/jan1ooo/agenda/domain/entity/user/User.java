@@ -14,6 +14,8 @@ import java.util.List;
 @Getter
 @Setter
 @Table(name = "users")
+@NoArgsConstructor
+@AllArgsConstructor
 @EqualsAndHashCode(of = "id")
 public class User implements UserDetails {
 

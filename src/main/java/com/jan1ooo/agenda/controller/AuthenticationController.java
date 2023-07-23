@@ -1,4 +1,4 @@
-package com.jan1ooo.agenda.api.controller;
+package com.jan1ooo.agenda.controller;
 
 import com.jan1ooo.agenda.config.TokenService;
 import com.jan1ooo.agenda.domain.entity.user.AuthenticationDTO;
@@ -7,6 +7,7 @@ import com.jan1ooo.agenda.domain.entity.user.RegisterDTO;
 import com.jan1ooo.agenda.domain.entity.user.User;
 import com.jan1ooo.agenda.domain.repository.UsuarioRepository;
 import jakarta.validation.Valid;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -19,17 +20,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/auth")
 public class AuthenticationController {
+    @Autowired
     private AuthenticationManager authenticationManager;
+    @Autowired
     private UsuarioRepository repository;
+    @Autowired
     private TokenService tokenService;
 
     @PostMapping("/login")
     public ResponseEntity login(@RequestBody @Valid AuthenticationDTO data){
         var usernamePassword = new UsernamePasswordAuthenticationToken(data.login(), data.password());
         var auth = this.authenticationManager.authenticate(usernamePassword);
-
         var token = tokenService.generateToken((User) auth.getPrincipal());
-
         return ResponseEntity.ok(new LoginResponseDTO(token));
     }
 
