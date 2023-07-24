@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e24acc27-8e99-420f-873e-18d427648bde" name="Changes" comment="Mudando dnv :(">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/agenda/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/agenda/Agenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/agenda/AgendaDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/entity/agenda/AgendaDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/service/AgendaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/domain/service/AgendaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V3__create_table_usuario.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4__create_table_usuario.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/config/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/config/SecurityFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/controller/PacienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jan1ooo/agenda/controller/PacienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +148,7 @@
       <workItem from="1690133006595" duration="13659000" />
       <workItem from="1690222110994" duration="454000" />
       <workItem from="1690222595813" duration="303000" />
-      <workItem from="1690222918497" duration="2546000" />
+      <workItem from="1690222918497" duration="5589000" />
     </task>
     <task id="LOCAL-00001" summary="Mudando dnv :(">
       <option name="closed" value="true" />

@@ -6,6 +6,7 @@ import com.jan1ooo.agenda.domain.entity.user.LoginResponseDTO;
 import com.jan1ooo.agenda.domain.entity.user.RegisterDTO;
 import com.jan1ooo.agenda.domain.entity.user.User;
 import com.jan1ooo.agenda.domain.repository.UserRepository;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+@Tag(name = "Autenticação", description = "API User")
 @RestController
 @RequestMapping("/auth")
 public class AuthenticationController {
