@@ -3,6 +3,7 @@ package com.jan1ooo.agenda.domain.entity.agenda;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.jan1ooo.agenda.domain.entity.paciente.PacienteDto;
 import jakarta.persistence.Column;
+import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -23,6 +24,7 @@ public class AgendaDto {
     private String descricao;
 
     @Column(unique = true)
+    @Future
     @JsonFormat(pattern = "dd-MM-yyyy HH:mm")
     private LocalDateTime horario;
 

@@ -20,13 +20,9 @@ B
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-l
-<src/main/java/com/jan1ooo/agenda/domain/entity/Paciente.java,7\4\7486856bbe268dcac0c802142fb12aada65f2298
-t
-Dsrc/main/java/com/jan1ooo/agenda/domain/dto/mapper/AgendaMapper.java,1\0\109f11b18b02256c12641aeea48050534acce706
 x
-Hsrc/main/java/com/jan1ooo/agenda/domain/repository/AgendaRepository.java,3\f\3f7b4d205349eb8a20248497c9463179d7e4418a
-v
-Fsrc/main/java/com/jan1ooo/agenda/domain/dto/request/AgendaRequest.java,7\c\7cb827f289fc7d5b2651a4f55f9e85ce0387a058
-j
-:src/main/java/com/jan1ooo/agenda/domain/entity/Agenda.java,2\b\2bfd37aeb91904979d68212351ae7854a0843b3b
+Hsrc/main/java/com/jan1ooo/agenda/domain/entity/paciente/PacienteDto.java,a\e\ae6f0c571788ce153ff6f7ddb7b27d71beeede02
+z
+Jsrc/main/java/com/jan1ooo/agenda/domain/repository/PacienteRepository.java,0\4\043b106787bd8f7a4d61657e9659965458ebe8c6
+l
+<src/main/resources/db/migration/V3__create_table_usuario.sql,2\1\21e353b8e19b5a5dc569a58c08dc4ea6baaf3486

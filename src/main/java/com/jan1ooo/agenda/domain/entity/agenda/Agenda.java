@@ -3,6 +3,7 @@ package com.jan1ooo.agenda.domain.entity.agenda;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.jan1ooo.agenda.domain.entity.paciente.Paciente;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Future;
 import lombok.Data;
 
 import java.time.LocalDateTime;
@@ -19,6 +20,7 @@ public class Agenda {
     private String descricao;
 
     @Column(name = "data_hora", unique = true)
+    @Future
     @JsonFormat(pattern = "dd-MM-yyyy HH:mm")
     private LocalDateTime horario;
 
